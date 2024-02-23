@@ -1,0 +1,25 @@
+{
+  "name": "cypress-farhad",
+  "version": "1.0.0",
+  "description": "for training only",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhadfabregas/cypress.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "farhad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhadfabregas/cypress/issues"
+  },
+  "homepage": "https://github.com/farhadfabregas/cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
