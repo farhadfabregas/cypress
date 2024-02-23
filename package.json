@@ -4,7 +4,7 @@
   "description": "for training only",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open",
+    "cypress:open": "npx cypress open",
     "cypress:run": "rimraf cypress/results/ && cypress run && npx mochawesome-merge 'cypress/results/*.json' > mochawesome.json && npx marge mochawesome.json && rimraf mochawesome.json"
   },
   "repository": {
